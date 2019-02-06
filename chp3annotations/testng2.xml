@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Automation University Suite">
+  <test name="Search For A Customer">
+    <classes>
+      <class name="com.testautomationu.chp3annotations.Configuration_Annotations">
+      	<methods>
+      		<include name = "searchCustomer"/>
+      	</methods>
+      </class>
+    </classes>
+  </test> <!-- Configuration Annotation Test -->
+  
+   <test name="Search For A Product">
+    <classes>
+      <class name="com.testautomationu.chp3annotations.Configuration_Annotations">
+      	<methods>
+      		<include name = "searchProduct"/>
+      	</methods>
+      </class>
+    </classes>
+  </test> <!-- Configuration Annotation Test -->
+</suite> <!-- Test Automation University Suite -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
